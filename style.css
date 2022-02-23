@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.body {
+    background-color: gray;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Akaya Telivigala', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Festive', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Heebo', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Redressed', cursive;
+font-family: 'Shizuru', cursive;
+}
+.container {
+    background-color: rgb(189, 216, 241);
+    width: 90%;
+    margin: 30px auto;
+    padding: 30px;
+}
+.columns {
+    line-height: 1.65;
+    display: flex;
+}
+.columns .main {
+    flex: 2;
+    order: 2;
+    margin: 5px;
+}
+.columns .sidebar-one {
+    flex: 1;
+    order: 1;
+    margin: 5px;
+}
+.columns .sidebar-two {
+    flex: 1;
+    order: 3;
+    margin: 5px;
+}
+.columns h2 {
+    padding: 10px o;
+}
+.columns p {
+    padding: 10px 0;
+}
+.form-row {
+    padding: 10px 0;
+    display: flex;
+}
+.form-row label {
+    padding-right: 10px;
+}
+.form-row input {
+    flex: 1;
+}
+.rows .container {
+    width: 100%;
+    border: 2px solid gray;
+}
+.rows .flex-row {
+    display: flex;
+    flex-direction: row;
+    color: antiquewhite;
+    justify-content: space-between;
+}
+.rows .row-1 {
+    background-color: cornflowerblue;
+    padding: 30px;
+    height: 250px;
+    flex: 1;
+    margin: 10px;
+}
+.rows .row-2 {
+    background-color: olivedrab;
+    padding: 30px;
+    height: 250px;
+    flex: 1;
+    margin: 10px;
+}
+.rows .row-3 {
+    background-color: plum;
+    padding: 30px;
+    height: 250px;
+    flex: 1;
+    margin: 10px;
+}
+.row h3 {
+    padding-bottom: 15px;
+}
+@media(min-width: 900px) {
+    .rows {
+        display: flex;
+        justify-content: space-between;
+    }
+}
